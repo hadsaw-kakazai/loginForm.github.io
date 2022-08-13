@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Project Two - With Plain CSS</title>
+</head>
+<body>
+        <!-- Main Container is main div -->
+        <div class="main_container">
+            <!-- Mobile Container contains the mobile rotate screen  -->
+            <section class="mobile_container">
+                <img src="./image/mobile_image.png" width="50%" height="100%" >
+            </section>
+            <!-- Form Container contains the login Form-->
+            <section class="form_container">
+                <span style="font-size: 14px;">LOGIN</span>
+                <br>
+                <span style="font-size: 25px; ">YOUR ACCOUNT</span>
+                <br>
+                <!-- Login Fields started from here -->
+                <div class="login_form">
+                    <!-- User nam section -->
+                    <section class="field_styling">
+                        <label>User Name:</label><br><br>
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" class="input_style"/>
+                    </section>
+                    
+                    <!-- Password section -->
+                    <section  class="field_styling">
+                        <label>Password:</label><br><br>
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password"  class="input_style"/>
+                    </section>
+
+                    <!-- Submit/login button section -->
+                    <section class="submit_styling">
+                        <input type="submit" value="LOGIN">
+                        <a href="#">Forget Password?</a>
+                    </section>
+               
+                    <span>Don't have an account?</span>
+                    <a href="#" style="color: rgb(0, 0, 0);">Sign Up!</a> 
+               
+                </div>
+            </section>
+        </div>
+
+</body>
+</html>
